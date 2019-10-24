@@ -1,0 +1,350 @@
+#all {
+height: 100vh;
+width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+	#logotipo {
+		height: 10%;
+		width: 20%;
+		opacity: 0.7;
+		position: relative;
+		left: 5%;
+		top: 7%;
+		font-family: "Kelly Slab";
+		font-size: 45px;
+		line-weight: 15vh;
+	}
+
+	#formulario_login {
+		height: 75%;
+		width: 50%;
+		border: 1px solid transparent;
+		position: relative;
+		top: 7%;
+		left: 25%;
+		border-radius: 400px 400px 400px 400px;
+		background-color: #5f5f5f;
+		opacity: 0.85;
+		box-shadow: 0 8px 8px 0 #4abdac;
+	}
+
+
+		#lprinc {
+			height: 35%;
+			width: 100%;
+			border-radius: 0px 96px 0px 0px;
+		}
+
+				#logoIcon {
+					height: 45%;
+					width: 13%;
+					position: relative;
+					left: 30%;
+					top: 25%;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 9vh;
+					font-family: "Kelly Slab";
+					font-size: 72px;
+					color: #fff;
+				}
+
+				#logoNome {
+					height: 35%;
+					width: 33%;
+					position: relative;
+					left: 42.4%;
+					top: -15%;
+					text-align: left;
+					vertical-align: middle;
+					line-height: 9vh;
+					font-family: "Kelly Slab";
+					font-size: 72px;
+					color: #fff;
+				}
+
+
+				#logoSlogan {
+					height: 15%;
+					width: 50%;
+					position: relative;
+					left: 25%;
+					top: -6%;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 3.5vh;
+					font-family: "Kelly Slab";
+					font-size: 20px;
+					color: #fff;
+				}
+
+		#preenc {
+			height: 65%;
+			width: 100%;
+			border-radius: 0px 0px 0px 96px;
+		}
+
+
+
+
+				#username {
+					height: 14%;
+					width: 65%;
+					border: 3px solid #fff;
+					position: relative;
+					top: 12%;
+					left: 17.5%;
+					border-radius: 10px;
+				}
+
+					#userIcon {
+						height: 100%;
+						width: 15%;
+						float: left;
+						text-align: center;
+						vertical-align: middle;
+						line-height: 6.5vh;
+						font-family: "Kelly Slab";
+						font-size: 35px;
+						color: #fff;
+						border-radius: 11.5px 0px 0px 11.5px;
+					}
+
+					#userText {
+						height: 100%;
+						width: 85%;
+						float: left;
+						border-radius: 0px 12px 12px 0px;
+					}
+
+
+						#user {
+							height: 100%;
+							width: 100%;
+							border-radius: 0px 7.7px 7.7px 0px;
+							background-color: #5f5f5f;
+							border-color: transparent;
+							text-color: #fff;
+						}
+
+						#user input:after {
+							background-color: #5f5f5f;
+						}
+
+				#password {
+					height: 14%;
+					width: 65%;
+					border: 3px solid #fff;
+					position: relative;
+					top: 20%;
+					left: 17.5%;
+					border-radius: 10px;
+				}
+
+					#passIcon {
+						height: 100%;
+						width: 15%;
+						float: left;
+						text-align: center;
+						vertical-align: middle;
+						line-height: 6vh;
+						font-family: "Kelly Slab";
+						font-size: 25px;
+						color: #fff;
+						border-radius: 11.5px 0px 0px 11.5px;
+					}
+
+					#passText {
+						height: 100%;
+						width: 85%;
+						float: left;
+						border-radius: 0px 12px 12px 0px;
+					}
+
+						#pass {
+							height: 100%;
+							width: 100%;
+							border-radius: 0px 12px 12px 0px;
+							background-color: #5f5f5f;
+							border-color: transparent;
+						}
+
+
+				#remember_me {
+					height: 5%;
+					width: 20%;
+					position: relative;
+					left: 17.5%;
+					top: 22%;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 2vh;
+					font-family: "Kelly Slab";
+					font-size: 16px;
+					color: #fff;
+				}
+
+
+					.lRem {
+						display: block;
+						position: relative;
+						padding-left: 25px;
+						margin-bottom: 12px;
+						cursor: pointer;
+						font-size: 16px;
+						font-family: Kelly Slab;
+						-webkit-user-select: none;
+						-moz-user-select: none;
+						-ms-user-select: none;
+						user-select: none;
+						}
+
+						.lRem input {
+							position: absolute;
+							opacity: 0;
+							cursor: pointer;
+							height: 0;
+							width: 0;
+						}
+
+						.checkmark {
+							position: absolute;
+							top: 0;
+							left: 9.5%;
+							height: 15px;
+							width: 15px;
+							background-color: #fff;
+							border: 1px solid #fff;
+							border-radius: 20px;
+						}
+	
+
+							.lRem input:hover ~ .checkmark {
+								background-color: #4abdac;
+							}					
+					
+							.lRem input:checked ~ .checkmark {
+								background-color: #4abdac;
+							}
+
+							.checkmark: after {
+								content: "";
+								position: absolute;
+								display: none;
+							}
+
+							.lRem input: checked ~ .checkmark:after {
+								display: block;
+							}
+
+							.lRem .checkmark:after {
+								left: 7px;
+								top: 3px;
+								width: 3px;
+								height:6px;
+								border: solid #fff;
+								border-width: 0 3px 3px 0;
+								-webkit-transform: rotate(45deg);
+								-ms-transform: rotate(45deg);
+								transform: rotate(45deg);
+							}
+
+
+				#forgot_pass {
+					height: 5%;
+					width: 20%;
+					position: relative;
+					left: 62.5%;
+					top: 17%;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 2vh;
+					font-family: "Kelly Slab";
+					font-size: 16px;
+					color: #fff;
+				}
+
+				#btCancel {
+					height: 11%;
+					width: 13%;
+					border: 2px solid #4abdac;
+					position: relative;
+					top: 19.5%;
+					left: 22%;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 1.2vh;
+					font-family: bradley hand, cursive;
+					font-size: 18px;
+					color: #fff;
+					border-radius: 10px;
+				}
+
+
+					#btCan {
+						height: 100%;
+						width: 100%;
+						color: #fff;
+						background-color: #4abdac;
+						border-radius: 7.2px;
+						border-color: transparent;
+					}
+
+				#btSubmit {
+					height: 11%;
+					width: 13%;
+					border: 2px solid #4abdac;
+					position: relative;
+					top: 9%;
+					left: 65%;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 1.2vh;
+					font-family: bradley hand, cursive;
+					font-size: 20px;
+					color: #fff;
+					border-radius: 10px;
+				}
+
+					#btSub {
+						height: 100%;
+						width: 100%;
+						color: #fff;
+						background-color: #4abdac;
+						border-radius: 7.2px;
+						border-color: transparent;
+					}
+
+
+				#about {
+					height: 9%;
+					width: 50%;
+					position: relative;
+					top: 15%;
+					left: 25%;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 2vh;
+					font-family: "Kelly Slab";
+					font-size: 14px;
+					color: #fff;
+				}
+
+
+	#footer {
+		height: 6%;
+		width: 100%;
+		border: 1px thin transparent;
+		position: relative;
+		top: 7%;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 6vh;
+		font-family: "Kelly Slab";
+		font-size: 18px;
+		
+
+	}
