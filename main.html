@@ -1,0 +1,76 @@
+
+<!doctype html>
+<html lang="pt-pt">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/node.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>PacificLife - LoginPage</title>
+  </head>
+
+  <body>
+    <div id="all" style="background-image:url(img/bm.jpg)">
+		<div id="logotipo">Pacific Life
+		</div>
+
+		<div id="formulario_login" >
+			<div id="lprinc">
+				<div id="logoIcon" style="font-size: 72px"><i class="fa fa-gears"></i></div>
+				<div id="logoNome">AIMS</div>
+				<div id="logoSlogan">Asilo Integrated Management System</div>
+			</div>
+
+
+			<div id="preenc">
+				<div id="username">
+					<div id="userIcon"><label for="user"><i class="fas fa-user-circle"></i></label></div>
+					<div id="userText"><input type="text" id="user" placeholder="Username" autocomplete="off" autofocus required></div>
+				
+				</div>
+
+				<div id="password">
+					<div id="passIcon"><i class="fas fa-key"></i></div>
+					<div id="passText"><input type="password" id="pass" placeholder="Password" minlength="8" maxlength="18" required></div>
+				</div>
+
+				<div id="remember_me"><label class="lRem">Remember me
+					<input type="checkbox" checked="checked">
+					<span class="checkmark"></span>
+					</label>
+				</div>
+
+				<div id="forgot_pass"><a href="mailto:edmilson.cassecasse@gmail.com">Esqueci a senha</a></div>
+
+				<div id="btCancel"><button type="button" id="btCan" onclick="close_window()">Cancelar</button></div>
+
+				<div id="btSubmit"><button type="button" id="btSub" onclick="getUsuario(), SaveText()">login</button></div>
+
+				<div id="about"><b>Version 1.0.1<br>Desenvolvido por EAC</br></b></div>
+			</div>
+		</div>
+
+
+		<div id="footer"><marquee behavior="alternate" width="100%" eigth="50" scrollamount="5"
+direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+Copyright &copy; 2019 PacificLife | Todos os direitos reservados</marquee>
+		</div>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>
